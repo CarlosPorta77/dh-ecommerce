@@ -1,0 +1,67 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.landing-page {
+  background-image: url('../img/landing.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.lp-info {
+  background-color: rgba(250, 248, 245, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+  color: #5E5048;
+  text-align: center;
+}
+
+.lp-info__titulo {
+  font-size: 2.5em;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.lp-info__subtitulo {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.lp-info__leyenda {
+  font-size: 1em;
+  color: #B00000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.lp-info__button {
+  font-size: 1em;
+  text-decoration: none;
+  background-color: rgba(250, 248, 245, 0.5);
+  color: #120400;
+  border: #FAF8F5 2px solid;
+  padding: 6px 12px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.lp-info__button:hover {
+  background-color: #5E5048;
+  color: #FAF8F5;
+}
