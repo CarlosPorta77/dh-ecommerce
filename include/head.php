@@ -5,6 +5,5 @@
 <title>Sushi Furusato Delivery</title>
 <link href = "https://fonts.googleapis.com/css?family=Open+Sans" rel = "stylesheet">
 <link rel = "stylesheet" href = "css/normalize.css">
-<link rel = "stylesheet" href = "css/landing.css">
 <link rel = "stylesheet" href = "css/styles.css">
 <script src = "https://use.fontawesome.com/6271867d99.js"></script>

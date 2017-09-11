@@ -7,12 +7,12 @@
     <div class = "wrapper">
       <?php include "include/header.php"; ?>
       <div class = "main-wrapper">
-        <main class = "main">
+        <main class = "main-container">
           <div class = "main__intro">
             <section class = "welcome sec">
-              <img class = "welcome__photo" src = "img/foto-01.jpg" alt = "">
-              <h1>Bienvenido a Sushi Furusato</h1>
-              <p>Disfrutá de un verdadero sushi calidad Premium. Los mejores ingredientes seleccionados por su frescura
+              <div class = "welcome__photo"></div>
+              <h1 class = "welcome__titulo">Bienvenido a Sushi Furusato</h1>
+              <p class = "welcome__texto">Disfrutá de un verdadero sushi calidad Premium. Los mejores ingredientes seleccionados por su frescura
                 y sabor. Preparado en el momento tu pedido con la dedicación y experiencia de nuestros Sushi
                 Masters.</p>
             </section>
@@ -24,7 +24,7 @@
                   <h2>NUESTRO MENÚ</h2>
                 </a>
               </div>
-            </section>
+            </section> <!-- /.nuestro-menu -->
             <section class = "promos sec">
               <div class = "promos__banner banner">
                 <a href = "promos.php">
@@ -39,7 +39,7 @@
                 </a>
               </div>
             </section>
-          </div>
+          </div> <!-- /.main-secciones -->
         </main>
       </div>
       <?php include "include/footer.php"; ?>

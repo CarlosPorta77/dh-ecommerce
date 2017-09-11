@@ -12,7 +12,7 @@
       <?php include "include/header.php"; ?>
       <div class = "main-wrapper">
         <div class = "main-container">
-          <section class = "sec-1 sec">
+          <section class = "sign-in sec">
 
 
             <form class = "reg-form" action = "sign-up-in.php" method = "post">

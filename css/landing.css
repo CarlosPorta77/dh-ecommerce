@@ -1,6 +1,4 @@
 *, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -8,12 +6,11 @@
 
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 17px;
   line-height: 1.6;
 }
 
-.landing-page {
-  background-image: url('../img/landing.jpg');
+.lp-wrapper {
+  background-image: url('../img/landing-s.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -49,7 +46,7 @@ body {
   text-align: center;
 }
 
-.lp-info__button {
+.lp-info__ingresar {
   font-size: 1em;
   text-decoration: none;
   background-color: rgba(250, 248, 245, 0.5);
@@ -61,7 +58,31 @@ body {
   margin-top: 1em;
 }
 
-.lp-info__button:hover {
+.lp-info__ingresar:hover {
   background-color: #5E5048;
   color: #FAF8F5;
+}
+
+@media screen and (min-width: 576px) {
+  .lp-wrapper {
+    background-image: url('../img/landing-m.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lp-wrapper {
+    background-image: url('../img/landing-l.jpg');
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .lp-wrapper {
+    background-image: url('../img/landing-xl.jpg');
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .lp-wrapper {
+    background-image: url('../img/landing-xxl.jpg');
+  }
 }
