@@ -50,6 +50,8 @@ background-color: #B00000 !important;
 .imglogobig {
     margin: 0;
     padding: 0;
+	height: 30px;
+	padding-bottom: 8px;
 }
 
 .navbar-custom .nav li a {
