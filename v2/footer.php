@@ -1,4 +1,5 @@
-<!-- footer     --->
+
+    <!-- footer     --->
   <footer>
     <div class="container">
     <div class = "wow animated fadeIn">

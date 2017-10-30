@@ -1,9 +1,9 @@
 <?php
-require_once("soporte.php");
+  require_once("funciones.php");
 
-if ($auth->estaLogueado()) {
-    true; // si necesito un pre action
-}
+  if (estaLogueado()) {
+      // si necesito un pre action
+  }
 ?>
 
 <?php include "header.php"; ?>
@@ -17,8 +17,7 @@ if ($auth->estaLogueado()) {
       <div class="col-md-5">
 
         <h2>Combo 1</h2>
-        <p> Combinado de maki surtidos, California roll, New York roll, niguiri y sashimi de salmón rosado, pescados
-          blancos y langostino
+        <p> Combinado de maki surtidos, California roll, New York roll, niguiri y sashimi de salmón rosado, pescados blancos y langostino
         </p>
 
 
@@ -31,23 +30,23 @@ if ($auth->estaLogueado()) {
             <span class="glyphicon glyphicon-star"></span>
             <span class="glyphicon glyphicon-star"></span>
           </p>
-          <div class="price">$519</div>
+            <div class="price">$519</div>
         </div>
         <hr>
         <form id="cart2form" class="form-inline" action="cart.php" method="POST">
-          <div class="form-group">
-            <p> Cantidad:
-              <select class="form-control">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <button type="submit" class="btn btn-primary">Agregar al Carrito</button>
-            </p>
-          </div>
+              <div class="form-group">
+                    <p> Cantidad:
+                        <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                          </select>
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <button type="submit" class="btn btn-primary">Agregar al Carrito</button>
+                    </p>
+              </div>
         </form>
         <br><br>
 
@@ -57,12 +56,11 @@ if ($auth->estaLogueado()) {
     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="headingOne">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
-               aria-controls="collapseOne">
-              Contenido
-            </a>
-          </h4>
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Contenido
+                </a>
+            </h4>
         </div>
         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
           <div class="panel-body">
@@ -80,15 +78,13 @@ if ($auth->estaLogueado()) {
             1 piel de salmón grillada con salsa teriyaki
             SASHIMI
             3 salmón rosado
-            3 pescados blancos del día
-          </div>
+            3 pescados blancos del día              </div>
         </div>
       </div>
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="headingTwo">
           <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
-               aria-expanded="false" aria-controls="collapseTwo">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               Información Nutricional
             </a>
           </h4>
@@ -104,8 +100,7 @@ if ($auth->estaLogueado()) {
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="headingThree">
           <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
-               aria-expanded="false" aria-controls="collapseThree">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
               Recomendaciones
             </a>
           </h4>
@@ -118,7 +113,10 @@ if ($auth->estaLogueado()) {
       </div>
     </div>
 
-  </div>
+ </div>
 </section>
+
+
+
 
 <?php include "footer.php"; ?>

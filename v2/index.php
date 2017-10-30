@@ -1,15 +1,15 @@
 <?php
-require_once("soporte.php");
+  require_once("funciones.php");
 
-if ($auth->estaLogueado()) {
-    true; // si necesito un pre action
-}
+  if (estaLogueado()) {
+      // si necesito un pre action
+  }
 ?>
 
-<?php include "header.php"; ?>
+  <?php include "header.php"; ?>
 
-<div class="container-fluid">
-  <div class="wow animated fadeIn">
+  <div class="container-fluid">
+    <div class = "wow animated fadeIn">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -35,7 +35,7 @@ if ($auth->estaLogueado()) {
           </div>
         </div>
         <div class="item">
-          <img src="img/b2.png" class="img-responsive">
+          <img src="img/b2.png" class="img-responsive" >
           <div class="carousel-caption">
             <div class="row">
               <div class="col-md-12">
@@ -67,34 +67,31 @@ if ($auth->estaLogueado()) {
 
 <!---    middle section -->
 
-<section id="index-middle">
-  <div class="container-fluid">
-    <div class="wow animated fadeIn">
-      <div class="row">
-        <div class="col-sm-4">
-          <img src="img/foto-04.jpg" class="index-img">
-          <h2>NUESTRO MENÚ</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id
-            lectus interdum tristique.</p>
+    <section id="index-middle">
+      <div class="container-fluid">
+       <div class = "wow animated fadeIn">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="img/foto-04.jpg" class="index-img">
+            <h2>NUESTRO MENÚ</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id lectus interdum tristique.</p>
 
-        </div>
-        <div class="col-sm-4">
-          <img src="img/foto-02.jpg" class="index-img">
-          <h2>P R O M O S</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id
-            lectus interdum tristique.</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="img/foto-02.jpg" class="index-img">
+            <h2>P R O M O S</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id lectus interdum tristique.</p>
 
-        </div>
-        <div class="col-sm-4">
-          <img src="img/foto-03.jpg" class="index-img">
-          <h2>CATERING</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id
-            lectus interdum tristique.</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="img/foto-03.jpg" class="index-img">
+              <h2>CATERING</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis tempus varius. Sed porttitor ex id lectus interdum tristique.</p>
 
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+    </section>
 
-<?php include "footer.php"; ?>
+  <?php include "footer.php"; ?>

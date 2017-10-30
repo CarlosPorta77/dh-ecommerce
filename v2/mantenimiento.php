@@ -1,5 +1,5 @@
 <?php
-require_once("soporte.php");
+  require_once("funciones.php");
 
 echo "<h1> Mantenimiento </h1>";
 echo "<p>";
@@ -12,11 +12,14 @@ echo "<br>";
 echo "</p>";
 echo "<br>";
 
+
 echo "<h2> Creando la Tabla Usuario  </h2>";
 echo "Tabla creada";
-$db->crearTablaUsuario();
+crearTablaUsuario();
 echo "<br>";
-//  echo "<h2> Migrando usuarios de Json a MySQL  </h2>";
-//  migrarJsonaMysql();
+echo "<h2> Migrando usuarios de Json a MySQL  </h2>";
+migrarJsonaMysql();
 echo "<br>";
 echo "Trabajo completado";
+
+  ?>

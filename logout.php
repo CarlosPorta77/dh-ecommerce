@@ -1,12 +1,10 @@
 <?php
 
-require_once("funciones.php");
+require_once("soporte.php");
 
-if (estaLogueado()) {
-  olvidarUsuario(usuarioLogueado()["email"]);
-  desloguear(usuarioLogueado()["email"]);
+if ($auth->estaLogueado()) {
+    $auth->olvidarUsuario($auth->usuarioLogueado($db)->getEmail());
+    $auth->desloguear();
 
-  header("Location:index.php");
+    header("Location:index.php");
 }
-
-?>
